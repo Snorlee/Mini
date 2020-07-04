@@ -3,12 +3,12 @@ var router = express.Router();
 var moment = require('moment');
 const messages = [
   {
-    text: 'Sup Michigan Gamer',
+    text: "What's up Michigan Gamers",
     user: 'Amanda',
     added: moment(new Date()).format('MMM Do 2018, 7:22:36 a'),
   },
   {
-    text: 'ok boomer.',
+    text: 'Joe Mama',
     user: 'Charles',
     added: moment(new Date()).format('MMM Do 2019, 10:22:44 a'),
   },
