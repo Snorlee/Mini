@@ -8,7 +8,7 @@ const messages = [
     added: moment(new Date()).format('MMM Do 2018, 7:22:36 a'),
   },
   {
-    text: 'boomer',
+    text: 'ok boomer.',
     user: 'Charles',
     added: moment(new Date()).format('MMM Do 2019, 10:22:44 a'),
   },
