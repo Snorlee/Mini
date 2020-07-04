@@ -1,0 +1,17 @@
+extends layout
+
+block content
+  h1 Say somethin' foo!
+  form(action='/', method='POST')
+    div
+      label(for='user') WHAT ARE YOU CALLED??:
+      br
+      input.user(name='user', type='text')
+    div
+      label(for='message') Spit it out:
+      br
+      input(name='message', type='text')
+    div
+      button(type='submit') Put that shit in!
+  br
+  a(href='./') Changed your mind pussy?
